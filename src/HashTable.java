@@ -195,6 +195,10 @@ public class HashTable<T> {
         return ret;
     }
 
+    /**
+     * Returns a string representation of the HashTable
+     * @return a string representation of the HashTable
+     */
     @Override
     public String toString(){
         String ans = "";

@@ -61,6 +61,11 @@ public class Emotion {
         return mapToColorScale((double) eb/counter);
     }
 
+    /**
+     * Returns whether the Object o is equal to this instance of Emotion
+     * @param o the Object
+     * @return whether the Object o is equal to this instance of Emotion
+     */
     @Override
     public boolean equals(Object o){
         if(o == this){ // instance of itself
@@ -79,6 +84,10 @@ public class Emotion {
         return this.x == other.x && this.y == other.y;
     }
 
+    /**
+     * Returns the hash code of this instance of Emotion
+     * @return the hash code of this instance of Emotion
+     */
     @Override
     public int hashCode(){
         return this.x*647 + this.y;
