@@ -6,7 +6,7 @@
 import java.util.*;
 public class HashTable<T> {
     private int numElements; // stores the number of elements
-    private ArrayList<LinkedList<T>> table; // the table that holds the
+    private ArrayList<LinkedList<T>> table; // the table that holds the LLists
     private double maxLoad = 0.75; // keeps tracks of the max load
 
     public HashTable(){

@@ -20,7 +20,7 @@ public class Emotion {
      * @param val the emotion value
      * @return the RGB value
      */
-    public int mapToColorScale(double val){
+    private int mapToColorScale(double val){
         return (int) Math.round(((val + 100)/200) * 255);
     }
 
